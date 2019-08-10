@@ -9,19 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Title</title>
     <style>
-        .row div {
-            border: 2px solid black;
-            height: 100px;
-        }
-        .col-md-6 {
-            background: blue;
-        }
-        .col-md-2 {
-            background: rgb(9, 204, 113);
-        }
-        .col-md-3 {
-            background: rgb(218, 180, 13);
-        }
+       nav {
+           background: rgb(158, 38, 194);
+           height: 50px;
+           color: rgb(86, 126, 161);
+           font-size: 30px;
+       }
+       div .menu {
+           height: 500px;
+           background-color: rgb(172, 241, 108);
+       }
     </style>
 </head>
 <body>
@@ -29,27 +26,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     
-
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top bg-dark col-6 col-sm-6  col-md-12 offset-3 offset-sm-3 offset-md-0 fixed-top">
+          <div class="navbar-header">
+              <a href="#">LOGO</a>
+          </div>
+          <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav mr-auto">
+                    <li class="active"><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Store</a></li>
+                    <li><a href="#" class="nav-link">Contacts</a></li>
+                </ul>
+          </div>
+    </nav>
     <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6"></div>
+        <div class="menu col-8 col-sm-8 col-md-6 offset-2 offset-sm-2 offset-md-3"></div>
     </div>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-    </div>
-
-
+             
 </body>
 </html>
